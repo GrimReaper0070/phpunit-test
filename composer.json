@@ -1,0 +1,12 @@
+{
+    "name": "ashraful/test-project",
+    "type": "phpunit",
+    "require": {
+        "phpunit/phpunit": "9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ashraful\\TestProject\\": "src/"
+        }
+    }
+}
